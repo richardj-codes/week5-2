@@ -213,6 +213,11 @@ form p {
 }
 /* ########## MEDIA QUERIES ########## */
 @media screen and(min-width: 750px) {
+	body {
+		min-height: 100vh;
+
+		background: rgb(255, 121, 120) url("img/bg-intro-desktop.png");
+	}
 	.container {
 		width: 90vw;
 		height: 100vh;
